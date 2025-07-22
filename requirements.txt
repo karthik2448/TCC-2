@@ -1,8 +1,6 @@
-streamlit==1.25.0
+streamlit==1.22.0
 tensorflow==2.11.0
 protobuf==3.19.6
 numpy
 opencv-python
 h5py
-Pillow
-
