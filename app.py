@@ -50,7 +50,7 @@ def dice_coefficient(y_true, y_pred, smooth=1):
 # Load trained model
 @st.cache_resource(show_spinner=True)
 def load_model():
-    return tf.keras.models.load_model("tcc_unet_classifier.h5",custom_objects={"dice_coefficient": dice_coefficient})
+    return tf.keras.models.load_model("tcc_unet_classifier.keras",custom_objects={"dice_coefficient": dice_coefficient})
 
 model = load_model()
 
