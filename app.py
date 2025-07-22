@@ -1,5 +1,14 @@
 import streamlit as st
 import numpy as np
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Only show errors
+
+# Optional levels:
+# '0' = all logs (default)
+# '1' = filter out INFO
+# '2' = filter out INFO and WARNING
+# '3' = only show ERROR
+
 import tensorflow as tf
 
 # Set page config
