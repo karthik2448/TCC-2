@@ -1,8 +1,8 @@
-streamlit==1.22.0
-tensorflow==2.11.0
+streamlit==1.27.2
+tensorflow==2.10.1
 protobuf==3.19.6
 numpy
 pandas
-Pillow
 h5py
+
 
